@@ -32,7 +32,7 @@ jobs:
       with:
        image: 86808/httpd
        registry: docker.io
-       username: ${{ secrets.DOCKERUSERNAME }}
+       username: 86808
        password: ${{ secrets.DOCKERPASSWORD }}
 
        
